@@ -1,0 +1,18 @@
+{
+  "keyword_optimizer": {
+    "title": "Strumento di Ottimizzazione delle Parole Chiave",
+    "job_description": "Incolla qui la descrizione del lavoro",
+    "placeholder": "Inserisci la descrizione del lavoro per analizzare il tuo CV...",
+    "analyze": "Analizza Parole Chiave",
+    "analyzing": "Analisi in corso...",
+    "results": "Risultati dell'Ottimizzazione",
+    "tips": "Suggerimenti per una migliore ottimizzazione",
+    "tip1": "Usa la terminologia specifica del settore",
+    "tip2": "Abbina le tue competenze ai requisiti del lavoro",
+    "tip3": "Includi competenze tecniche e trasversali",
+    "tip4": "Usa verbi d'azione e risultati quantificabili"
+  },
+  "errors": {
+    "keyword_optimization_failed": "Analisi delle parole chiave fallita. Per favore riprova."
+  }
+} 

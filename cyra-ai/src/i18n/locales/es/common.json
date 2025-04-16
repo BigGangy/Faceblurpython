@@ -1,0 +1,18 @@
+{
+  "keyword_optimizer": {
+    "title": "Herramienta de Optimización de Palabras Clave",
+    "job_description": "Pega la descripción del puesto aquí",
+    "placeholder": "Ingresa la descripción del puesto para analizar tu CV...",
+    "analyze": "Analizar Palabras Clave",
+    "analyzing": "Analizando...",
+    "results": "Resultados de Optimización",
+    "tips": "Consejos para una mejor optimización",
+    "tip1": "Usa terminología específica del sector",
+    "tip2": "Haz coincidir tus habilidades con los requisitos del puesto",
+    "tip3": "Incluye habilidades técnicas y blandas",
+    "tip4": "Usa verbos de acción y logros cuantificables"
+  },
+  "errors": {
+    "keyword_optimization_failed": "Error al analizar las palabras clave. Por favor, inténtalo de nuevo."
+  }
+} 

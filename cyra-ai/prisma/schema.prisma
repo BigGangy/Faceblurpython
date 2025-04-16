@@ -1,0 +1,86 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String    @id @default(cuid())
+  email         String    @unique
+  name          String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  cvs           CV[]
+  coverLetters  CoverLetter[]
+  preferences   UserPreferences?
+}
+
+model UserPreferences {
+  id        String   @id @default(cuid())
+  userId    String   @unique
+  user      User     @relation(fields: [userId], references: [id])
+  language  String   @default("en")
+  region    String   @default("ksa")
+  showPhoto Boolean  @default(false)
+  showDob   Boolean  @default(false)
+  showGender Boolean @default(false)
+}
+
+model CV {
+  id          String    @id @default(cuid())
+  userId      String
+  user        User      @relation(fields: [userId], references: [id])
+  title       String
+  language    String
+  region      String
+  personalInfo Json
+  education   Json
+  experience  Json
+  skills      Json
+  summary     String
+  template    String
+  isPublic    Boolean   @default(false)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  coverLetters CoverLetter[]
+}
+
+model CoverLetter {
+  id          String    @id @default(cuid())
+  cvId        String
+  cv          CV        @relation(fields: [cvId], references: [id])
+  userId      String
+  user        User      @relation(fields: [userId], references: [id])
+  jobTitle    String
+  company     String?
+  content     String
+  language    String
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model Template {
+  id          String    @id @default(cuid())
+  name        String
+  description String?
+  language    String
+  region      String
+  content     Json
+  isPublic    Boolean   @default(true)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model AIPrompt {
+  id          String    @id @default(cuid())
+  name        String
+  description String?
+  language    String
+  region      String
+  content     String
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+} 

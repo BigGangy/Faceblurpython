@@ -1,0 +1,219 @@
+{
+  "keyword_optimizer": {
+    "title": "Keyword Optimization Tool",
+    "job_description": "Paste the job description here",
+    "placeholder": "Enter the job description to analyze your CV against...",
+    "analyze": "Analyze Keywords",
+    "analyzing": "Analyzing...",
+    "results": "Optimization Results",
+    "tips": "Tips for Better Optimization",
+    "tip1": "Use industry-specific terminology",
+    "tip2": "Match your skills with job requirements",
+    "tip3": "Include both hard and soft skills",
+    "tip4": "Use action verbs and quantifiable achievements"
+  },
+  "errors": {
+    "keyword_optimization_failed": "Failed to analyze keywords. Please try again."
+  },
+  "landing": {
+    "hero": {
+      "title": "Create Your Perfect CV with AI",
+      "subtitle": "Get a professional, ATS-optimized CV tailored to your target job market",
+      "cta": "Get Started"
+    },
+    "features": {
+      "title": "Why Choose Cyra AI?",
+      "ai_cv": {
+        "title": "AI-Powered CV Generator",
+        "description": "Create professional CVs with smart content suggestions"
+      },
+      "templates": {
+        "title": "ATS-Optimized Templates",
+        "description": "Choose from region-specific, recruiter-approved templates"
+      },
+      "cover_letter": {
+        "title": "Smart Cover Letters",
+        "description": "Generate personalized cover letters for each application"
+      },
+      "keywords": {
+        "title": "Keyword Optimization",
+        "description": "Match your CV with job descriptions for better visibility"
+      }
+    },
+    "cta": {
+      "title": "Ready to Land Your Dream Job?",
+      "description": "Create your professional CV in minutes with our AI-powered platform",
+      "button": "Start Creating"
+    }
+  },
+  "dashboard": {
+    "title": "My Dashboard",
+    "create_new": "Create New CV",
+    "my_cvs": "My CVs",
+    "no_cvs": "You haven't created any CVs yet",
+    "edit": "Edit",
+    "preview": "Preview",
+    "features": {
+      "create_cv": {
+        "title": "Create CV",
+        "description": "Build a new CV with AI assistance"
+      },
+      "cover_letter": {
+        "title": "Cover Letter",
+        "description": "Generate a matching cover letter"
+      },
+      "keywords": {
+        "title": "Keyword Optimizer",
+        "description": "Optimize your CV for job descriptions"
+      },
+      "templates": {
+        "title": "Templates",
+        "description": "Choose from professional templates"
+      }
+    }
+  },
+  "templates": {
+    "title": "Choose Your Template",
+    "subtitle": "Select a professional template that matches your target job market",
+    "no_templates": "No templates available for your selected language and region",
+    "classic": {
+      "name": "Classic",
+      "description": "Traditional layout with clear sections and professional typography"
+    },
+    "modern": {
+      "name": "Modern",
+      "description": "Contemporary design with visual elements and clean structure"
+    },
+    "professional": {
+      "name": "Professional",
+      "description": "Formal layout optimized for corporate environments"
+    },
+    "creative": {
+      "name": "Creative",
+      "description": "Innovative design with unique visual elements"
+    }
+  },
+  "pdf": {
+    "title": "Export Your CV",
+    "description": "Generate a professional PDF version of your CV that you can download and share",
+    "export": "Export PDF",
+    "generating": "Generating PDF...",
+    "export_success": "PDF generated successfully!",
+    "export_error": "Failed to generate PDF. Please try again."
+  },
+  "cv_wizard": {
+    "steps": {
+      "personal_info": {
+        "title": "Personal Information",
+        "description": "Enter your basic information to get started",
+        "fields": {
+          "firstName": "First Name",
+          "lastName": "Last Name",
+          "email": "Email",
+          "phone": "Phone",
+          "location": "Location",
+          "linkedin": "LinkedIn Profile",
+          "website": "Personal Website"
+        }
+      },
+      "education": {
+        "title": "Education",
+        "description": "Add your educational background",
+        "fields": {
+          "institution": "Institution",
+          "degree": "Degree",
+          "field": "Field of Study",
+          "startDate": "Start Date",
+          "endDate": "End Date",
+          "gpa": "GPA",
+          "description": "Description"
+        },
+        "add_education": "Add Education",
+        "remove_education": "Remove Education"
+      },
+      "experience": {
+        "title": "Work Experience",
+        "description": "Add your professional experience",
+        "fields": {
+          "company": "Company",
+          "position": "Position",
+          "location": "Location",
+          "startDate": "Start Date",
+          "endDate": "End Date",
+          "description": "Description",
+          "achievements": "Key Achievements"
+        },
+        "add_experience": "Add Experience",
+        "remove_experience": "Remove Experience",
+        "add_achievement": "Add Achievement",
+        "remove_achievement": "Remove Achievement"
+      },
+      "skills": {
+        "title": "Skills",
+        "description": "Add your skills and expertise",
+        "fields": {
+          "category": "Category",
+          "skill": "Skill"
+        },
+        "add_skill": "Add Skill",
+        "remove_skill": "Remove Skill"
+      },
+      "summary": {
+        "title": "Professional Summary",
+        "description": "Write a compelling summary of your professional background",
+        "placeholder": "Write a brief summary highlighting your key qualifications and career objectives..."
+      }
+    },
+    "navigation": {
+      "next": "Next",
+      "previous": "Previous",
+      "generate": "Generate CV",
+      "back_to_edit": "Back to Edit"
+    },
+    "validation": {
+      "required": "This field is required",
+      "invalid_email": "Please enter a valid email address",
+      "invalid_phone": "Please enter a valid phone number",
+      "invalid_date": "Please enter a valid date",
+      "invalid_url": "Please enter a valid URL"
+    }
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "stats": {
+      "totalUsers": "Total Users",
+      "totalCVs": "Total CVs",
+      "totalTemplates": "Total Templates",
+      "activeUsers": "Active Users",
+      "totalCoverLetters": "Total Cover Letters"
+    },
+    "users": {
+      "title": "Users",
+      "name": "Name",
+      "email": "Email",
+      "cvs": "CVs",
+      "cover_letters": "Cover Letters",
+      "joined": "Joined Date"
+    },
+    "templates": {
+      "title": "Templates",
+      "add": "Add Template",
+      "edit": "Edit",
+      "preview": "Preview",
+      "delete": "Delete",
+      "confirm_delete": "Are you sure you want to delete this template?",
+      "delete_success": "Template deleted successfully",
+      "delete_error": "Failed to delete template"
+    },
+    "settings": {
+      "title": "Settings",
+      "general": "General Settings",
+      "ai": "AI Settings",
+      "email": "Email Settings",
+      "storage": "Storage Settings",
+      "save": "Save Changes",
+      "saved": "Settings saved successfully",
+      "error": "Failed to save settings"
+    }
+  }
+} 

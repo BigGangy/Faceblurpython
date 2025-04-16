@@ -1,0 +1,18 @@
+{
+  "keyword_optimizer": {
+    "title": "Ferramenta de Otimização de Palavras-chave",
+    "job_description": "Cole a descrição do cargo aqui",
+    "placeholder": "Digite a descrição do cargo para analisar seu currículo...",
+    "analyze": "Analisar Palavras-chave",
+    "analyzing": "Analisando...",
+    "results": "Resultados da Otimização",
+    "tips": "Dicas para uma melhor otimização",
+    "tip1": "Use terminologia específica do setor",
+    "tip2": "Combine suas habilidades com os requisitos do cargo",
+    "tip3": "Inclua habilidades técnicas e comportamentais",
+    "tip4": "Use verbos de ação e conquistas mensuráveis"
+  },
+  "errors": {
+    "keyword_optimization_failed": "Falha na análise de palavras-chave. Por favor, tente novamente."
+  }
+} 

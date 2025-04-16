@@ -1,0 +1,219 @@
+{
+  "keyword_optimizer": {
+    "title": "Outil d'Optimisation des Mots-clés",
+    "job_description": "Collez la description du poste ici",
+    "placeholder": "Entrez la description du poste pour analyser votre CV...",
+    "analyze": "Analyser les Mots-clés",
+    "analyzing": "Analyse en cours...",
+    "results": "Résultats d'Optimisation",
+    "tips": "Conseils pour une meilleure optimisation",
+    "tip1": "Utilisez la terminologie du secteur",
+    "tip2": "Faites correspondre vos compétences aux exigences du poste",
+    "tip3": "Incluez des compétences techniques et comportementales",
+    "tip4": "Utilisez des verbes d'action et des réalisations mesurables"
+  },
+  "errors": {
+    "keyword_optimization_failed": "L'analyse des mots-clés a échoué. Veuillez réessayer."
+  },
+  "landing": {
+    "hero": {
+      "title": "Créez votre CV parfait avec l'IA",
+      "subtitle": "Obtenez un CV professionnel optimisé pour l'ATS adapté à votre marché cible",
+      "cta": "Commencer"
+    },
+    "features": {
+      "title": "Pourquoi choisir Cyra AI ?",
+      "ai_cv": {
+        "title": "Générateur de CV avec IA",
+        "description": "Créez des CV professionnels avec des suggestions de contenu intelligentes"
+      },
+      "templates": {
+        "title": "Modèles optimisés pour l'ATS",
+        "description": "Choisissez parmi des modèles spécifiques à la région et approuvés par les recruteurs"
+      },
+      "cover_letter": {
+        "title": "Lettres de motivation intelligentes",
+        "description": "Générez des lettres de motivation personnalisées pour chaque candidature"
+      },
+      "keywords": {
+        "title": "Optimisation des mots-clés",
+        "description": "Faites correspondre votre CV avec les descriptions de poste pour une meilleure visibilité"
+      }
+    },
+    "cta": {
+      "title": "Prêt à décrocher le job de vos rêves ?",
+      "description": "Créez votre CV professionnel en quelques minutes avec notre plateforme basée sur l'IA",
+      "button": "Commencer la création"
+    }
+  },
+  "dashboard": {
+    "title": "Mon Tableau de Bord",
+    "create_new": "Créer un Nouveau CV",
+    "my_cvs": "Mes CVs",
+    "no_cvs": "Vous n'avez pas encore créé de CV",
+    "edit": "Modifier",
+    "preview": "Aperçu",
+    "features": {
+      "create_cv": {
+        "title": "Créer un CV",
+        "description": "Créez un nouveau CV avec l'aide de l'IA"
+      },
+      "cover_letter": {
+        "title": "Lettre de Motivation",
+        "description": "Générez une lettre de motivation correspondante"
+      },
+      "keywords": {
+        "title": "Optimisation des Mots-clés",
+        "description": "Optimisez votre CV pour les descriptions de poste"
+      },
+      "templates": {
+        "title": "Modèles",
+        "description": "Choisissez parmi des modèles professionnels"
+      }
+    }
+  },
+  "templates": {
+    "title": "Choisissez Votre Modèle",
+    "subtitle": "Sélectionnez un modèle professionnel adapté à votre marché cible",
+    "no_templates": "Aucun modèle disponible pour votre langue et région sélectionnées",
+    "classic": {
+      "name": "Classique",
+      "description": "Mise en page traditionnelle avec sections claires et typographie professionnelle"
+    },
+    "modern": {
+      "name": "Moderne",
+      "description": "Design contemporain avec éléments visuels et structure épurée"
+    },
+    "professional": {
+      "name": "Professionnel",
+      "description": "Mise en page formelle optimisée pour les environnements d'entreprise"
+    },
+    "creative": {
+      "name": "Créatif",
+      "description": "Design innovant avec des éléments visuels uniques"
+    }
+  },
+  "pdf": {
+    "title": "Exporter votre CV",
+    "description": "Générez une version PDF professionnelle de votre CV que vous pouvez télécharger et partager",
+    "export": "Exporter PDF",
+    "generating": "Génération du PDF en cours...",
+    "export_success": "PDF généré avec succès !",
+    "export_error": "Échec de la génération du PDF. Veuillez réessayer."
+  },
+  "cv_wizard": {
+    "steps": {
+      "personal_info": {
+        "title": "Informations Personnelles",
+        "description": "Entrez vos informations de base pour commencer",
+        "fields": {
+          "firstName": "Prénom",
+          "lastName": "Nom",
+          "email": "Email",
+          "phone": "Téléphone",
+          "location": "Localisation",
+          "linkedin": "Profil LinkedIn",
+          "website": "Site Web Personnel"
+        }
+      },
+      "education": {
+        "title": "Formation",
+        "description": "Ajoutez votre parcours éducatif",
+        "fields": {
+          "institution": "Établissement",
+          "degree": "Diplôme",
+          "field": "Domaine d'Études",
+          "startDate": "Date de Début",
+          "endDate": "Date de Fin",
+          "gpa": "Moyenne Générale",
+          "description": "Description"
+        },
+        "add_education": "Ajouter une Formation",
+        "remove_education": "Supprimer la Formation"
+      },
+      "experience": {
+        "title": "Expérience Professionnelle",
+        "description": "Ajoutez votre expérience professionnelle",
+        "fields": {
+          "company": "Entreprise",
+          "position": "Poste",
+          "location": "Localisation",
+          "startDate": "Date de Début",
+          "endDate": "Date de Fin",
+          "description": "Description",
+          "achievements": "Réalisations Clés"
+        },
+        "add_experience": "Ajouter une Expérience",
+        "remove_experience": "Supprimer l'Expérience",
+        "add_achievement": "Ajouter une Réalisation",
+        "remove_achievement": "Supprimer la Réalisation"
+      },
+      "skills": {
+        "title": "Compétences",
+        "description": "Ajoutez vos compétences et expertises",
+        "fields": {
+          "category": "Catégorie",
+          "skill": "Compétence"
+        },
+        "add_skill": "Ajouter une Compétence",
+        "remove_skill": "Supprimer la Compétence"
+      },
+      "summary": {
+        "title": "Résumé Professionnel",
+        "description": "Rédigez un résumé percutant de votre parcours professionnel",
+        "placeholder": "Rédigez un bref résumé mettant en avant vos qualifications clés et vos objectifs professionnels..."
+      }
+    },
+    "navigation": {
+      "next": "Suivant",
+      "previous": "Précédent",
+      "generate": "Générer le CV",
+      "back_to_edit": "Retour à l'Édition"
+    },
+    "validation": {
+      "required": "Ce champ est obligatoire",
+      "invalid_email": "Veuillez entrer une adresse email valide",
+      "invalid_phone": "Veuillez entrer un numéro de téléphone valide",
+      "invalid_date": "Veuillez entrer une date valide",
+      "invalid_url": "Veuillez entrer une URL valide"
+    }
+  },
+  "admin": {
+    "title": "Tableau de bord administrateur",
+    "stats": {
+      "totalUsers": "Total des utilisateurs",
+      "totalCVs": "Total des CVs",
+      "totalTemplates": "Total des modèles",
+      "activeUsers": "Utilisateurs actifs",
+      "totalCoverLetters": "Total des lettres de motivation"
+    },
+    "users": {
+      "title": "Utilisateurs",
+      "name": "Nom",
+      "email": "Email",
+      "cvs": "CVs",
+      "cover_letters": "Lettres de motivation",
+      "joined": "Date d'inscription"
+    },
+    "templates": {
+      "title": "Modèles",
+      "add": "Ajouter un modèle",
+      "edit": "Modifier",
+      "preview": "Aperçu",
+      "delete": "Supprimer",
+      "confirm_delete": "Êtes-vous sûr de vouloir supprimer ce modèle ?",
+      "delete_success": "Modèle supprimé avec succès",
+      "delete_error": "Échec de la suppression du modèle"
+    },
+    "settings": {
+      "title": "Paramètres",
+      "general": "Paramètres généraux",
+      "ai": "Paramètres IA",
+      "email": "Paramètres email",
+      "storage": "Paramètres de stockage",
+      "save": "Enregistrer les modifications",
+      "saved": "Paramètres enregistrés avec succès",
+      "error": "Échec de l'enregistrement des paramètres"
+    }
+  }
+} 

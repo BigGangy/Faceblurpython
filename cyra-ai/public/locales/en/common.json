@@ -1,0 +1,37 @@
+{
+  "welcome": "Welcome to Cyra AI",
+  "create_cv": "Create Your CV",
+  "choose_language": "Choose Language",
+  "choose_region": "Choose Region",
+  "regions": {
+    "ksa": "Saudi Arabia",
+    "uae": "United Arab Emirates",
+    "tunisia": "Tunisia",
+    "morocco": "Morocco",
+    "france": "France",
+    "canada": "Canada"
+  },
+  "languages": {
+    "en": "English",
+    "ar": "Arabic",
+    "fr": "French"
+  },
+  "start": "Get Started",
+  "next": "Next",
+  "back": "Back",
+  "save": "Save",
+  "export": "Export PDF",
+  "generate_cover_letter": "Generate Cover Letter",
+  "cv_wizard": {
+    "personal_info": "Personal Information",
+    "education": "Education",
+    "experience": "Work Experience",
+    "skills": "Skills",
+    "summary": "Professional Summary"
+  },
+  "ai_assistant": {
+    "title": "AI Assistant",
+    "placeholder": "Ask me anything about your CV...",
+    "suggestions": "Here are some suggestions to improve your CV:"
+  }
+} 
